@@ -11,9 +11,11 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     justify-content: center;
     margin: 0;
+    height: 100vh;
 }
 
 .container {
@@ -37,6 +39,7 @@ body {
     padding: 15px;
     font-size: 16px;
     border-radius: 5px;
+    border: 0;
 }
 .btn:focus {
     outline: 0;
